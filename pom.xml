@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.azortis.runicenchants</groupId>
+    <artifactId>RunicEnchants</artifactId>
+    <packaging>pom</packaging>
+    <version>parent</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.azortis.runicenchants</groupId>
+            <artifactId>core</artifactId>
+            <version>parent</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <name>RE Parent</name>
+
+    <modules>
+        <module>core</module>
+        <module>1.8</module>
+        <module>1.9</module>
+        <module>1.10</module>
+        <module>1.12</module>
+        <module>1.13</module>
+        <module>1.14</module>
+        <module>1.15</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
+</project>

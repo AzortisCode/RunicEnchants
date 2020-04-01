@@ -1,0 +1,7 @@
+name: RunicEnchants
+version: ALPHA
+main: com.azortis.certifiedvillain.runicenchants.RunicEnchants
+api-version: 1.13
+prefix: [RE]
+authors: [CertifiedVillain]
+description: A plugin which provides the ability to add in new enchantments for your items.
