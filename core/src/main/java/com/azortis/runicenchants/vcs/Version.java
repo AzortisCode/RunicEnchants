@@ -5,9 +5,13 @@ import v12.Ver12;
 import v13.Ver13;
 import v14.Ver14;
 import v15.Ver15;
-import ver8.Ver8;
 import v9.Ver9;
+import ver8.Ver8;
 
+/**
+ * @author X1XX on 4/1/2020
+ * @project RunicEnchants
+ **/
 public enum Version {
     VERSION8(new Ver8()),
     VERSION9(new Ver9()),
