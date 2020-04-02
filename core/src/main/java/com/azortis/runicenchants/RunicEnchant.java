@@ -12,6 +12,16 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class RunicEnchant extends JavaPlugin {
     private Version version;
 
+    // todo: Finish Hooks
+    // todo: Add custom enchants
+    // todo: add inventory
+    // todo: add api
+    // todo: add alchemist
+    // todo: add blacksmith
+    // todo: add info
+    // todo: add shop
+    // todo: add commands
+    // todo: add in-game config editor
     @Override
     public void onDisable() {
 
